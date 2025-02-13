@@ -14,7 +14,7 @@ public class Page {
 		
 		
 			WebDriver driver = new ChromeDriver();
-			driver.get(Links.HOME);
+			driver.get("http://saucedemo.com/");
 			
 			//provide username
 			WebElement username = driver.findElement(By.id("user-name"));
